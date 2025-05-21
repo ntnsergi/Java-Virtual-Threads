@@ -104,7 +104,9 @@ Piensa en ello como si todas las subtareas concurrentes fueran "hijas" de la tar
 ## Lenguajes con propuestas similares
 
 Python: async/await con asyncio, permite concurrencia usando corutinas. No usa hilos reales, sino un solo hilo con eventos.
+
 Ruby: Fibers y Threads, ruby tiene soporte para Fibers (corutinas ligeras) y algunos runtimes implementan concurrencia ligera.
+
 Erlang: Procesos ligeros (green threads), su modelo de actor usa miles de procesos ligeros gestionados por la VM (BEAM). Muy escalables.
 
 
